@@ -13,6 +13,7 @@
 		718310201571EBAE00D7078B /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7183101E1571EBAE00D7078B /* Credits.rtf */; };
 		718310231571EBAE00D7078B /* MacBotAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 718310221571EBAE00D7078B /* MacBotAppDelegate.m */; };
 		718310261571EBAE00D7078B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 718310241571EBAE00D7078B /* MainMenu.xib */; };
+		71C5DD0B1574791100A6828A /* macbot.icns in Resources */ = {isa = PBXBuildFile; fileRef = 71C5DD0A1574791100A6828A /* macbot.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		718310211571EBAE00D7078B /* MacBotAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacBotAppDelegate.h; sourceTree = "<group>"; };
 		718310221571EBAE00D7078B /* MacBotAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MacBotAppDelegate.m; sourceTree = "<group>"; };
 		718310251571EBAE00D7078B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		71C5DD0A1574791100A6828A /* macbot.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = macbot.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,7 @@
 		718310001571EBAD00D7078B = {
 			isa = PBXGroup;
 			children = (
+				71C5DD0A1574791100A6828A /* macbot.icns */,
 				718310151571EBAE00D7078B /* MacBot */,
 				7183100E1571EBAE00D7078B /* Frameworks */,
 				7183100C1571EBAE00D7078B /* Products */,
@@ -152,6 +155,7 @@
 				7183101A1571EBAE00D7078B /* InfoPlist.strings in Resources */,
 				718310201571EBAE00D7078B /* Credits.rtf in Resources */,
 				718310261571EBAE00D7078B /* MainMenu.xib in Resources */,
+				71C5DD0B1574791100A6828A /* macbot.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +289,7 @@
 				7183102B1571EBAE00D7078B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
