@@ -19,7 +19,7 @@
 	[openPanel setCanChooseFiles:NO];
 	[openPanel setCanChooseDirectories:YES];
     [openPanel setCanCreateDirectories:YES];
-    NSError* error;
+    NSError* error = nil;
     
 	NSInteger result = [openPanel runModal];
     
