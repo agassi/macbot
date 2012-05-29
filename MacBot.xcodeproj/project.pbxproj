@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		718310101571EBAE00D7078B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7183100F1571EBAE00D7078B /* Cocoa.framework */; };
+		7183101A1571EBAE00D7078B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 718310181571EBAE00D7078B /* InfoPlist.strings */; };
+		7183101C1571EBAE00D7078B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7183101B1571EBAE00D7078B /* main.m */; };
+		718310201571EBAE00D7078B /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7183101E1571EBAE00D7078B /* Credits.rtf */; };
+		718310231571EBAE00D7078B /* MacBotAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 718310221571EBAE00D7078B /* MacBotAppDelegate.m */; };
+		718310261571EBAE00D7078B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 718310241571EBAE00D7078B /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7183100B1571EBAE00D7078B /* MacBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7183100F1571EBAE00D7078B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		718310121571EBAE00D7078B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		718310131571EBAE00D7078B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		718310141571EBAE00D7078B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		718310171571EBAE00D7078B /* MacBot-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MacBot-Info.plist"; sourceTree = "<group>"; };
+		718310191571EBAE00D7078B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7183101B1571EBAE00D7078B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7183101D1571EBAE00D7078B /* MacBot-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MacBot-Prefix.pch"; sourceTree = "<group>"; };
+		7183101F1571EBAE00D7078B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		718310211571EBAE00D7078B /* MacBotAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacBotAppDelegate.h; sourceTree = "<group>"; };
+		718310221571EBAE00D7078B /* MacBotAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MacBotAppDelegate.m; sourceTree = "<group>"; };
+		718310251571EBAE00D7078B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		718310081571EBAE00D7078B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				718310101571EBAE00D7078B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		718310001571EBAD00D7078B = {
+			isa = PBXGroup;
+			children = (
+				718310151571EBAE00D7078B /* MacBot */,
+				7183100E1571EBAE00D7078B /* Frameworks */,
+				7183100C1571EBAE00D7078B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7183100C1571EBAE00D7078B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7183100B1571EBAE00D7078B /* MacBot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7183100E1571EBAE00D7078B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7183100F1571EBAE00D7078B /* Cocoa.framework */,
+				718310111571EBAE00D7078B /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		718310111571EBAE00D7078B /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				718310121571EBAE00D7078B /* AppKit.framework */,
+				718310131571EBAE00D7078B /* CoreData.framework */,
+				718310141571EBAE00D7078B /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		718310151571EBAE00D7078B /* MacBot */ = {
+			isa = PBXGroup;
+			children = (
+				718310211571EBAE00D7078B /* MacBotAppDelegate.h */,
+				718310221571EBAE00D7078B /* MacBotAppDelegate.m */,
+				718310241571EBAE00D7078B /* MainMenu.xib */,
+				718310161571EBAE00D7078B /* Supporting Files */,
+			);
+			path = MacBot;
+			sourceTree = "<group>";
+		};
+		718310161571EBAE00D7078B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				718310171571EBAE00D7078B /* MacBot-Info.plist */,
+				718310181571EBAE00D7078B /* InfoPlist.strings */,
+				7183101B1571EBAE00D7078B /* main.m */,
+				7183101D1571EBAE00D7078B /* MacBot-Prefix.pch */,
+				7183101E1571EBAE00D7078B /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7183100A1571EBAE00D7078B /* MacBot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 718310291571EBAE00D7078B /* Build configuration list for PBXNativeTarget "MacBot" */;
+			buildPhases = (
+				718310071571EBAE00D7078B /* Sources */,
+				718310081571EBAE00D7078B /* Frameworks */,
+				718310091571EBAE00D7078B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacBot;
+			productName = MacBot;
+			productReference = 7183100B1571EBAE00D7078B /* MacBot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		718310021571EBAD00D7078B /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 718310051571EBAD00D7078B /* Build configuration list for PBXProject "MacBot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 718310001571EBAD00D7078B;
+			productRefGroup = 7183100C1571EBAE00D7078B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7183100A1571EBAE00D7078B /* MacBot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		718310091571EBAE00D7078B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7183101A1571EBAE00D7078B /* InfoPlist.strings in Resources */,
+				718310201571EBAE00D7078B /* Credits.rtf in Resources */,
+				718310261571EBAE00D7078B /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		718310071571EBAE00D7078B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7183101C1571EBAE00D7078B /* main.m in Sources */,
+				718310231571EBAE00D7078B /* MacBotAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		718310181571EBAE00D7078B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				718310191571EBAE00D7078B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7183101E1571EBAE00D7078B /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7183101F1571EBAE00D7078B /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		718310241571EBAE00D7078B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				718310251571EBAE00D7078B /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		718310271571EBAE00D7078B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		718310281571EBAE00D7078B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7183102A1571EBAE00D7078B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacBot/MacBot-Prefix.pch";
+				INFOPLIST_FILE = "MacBot/MacBot-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7183102B1571EBAE00D7078B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacBot/MacBot-Prefix.pch";
+				INFOPLIST_FILE = "MacBot/MacBot-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		718310051571EBAD00D7078B /* Build configuration list for PBXProject "MacBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				718310271571EBAE00D7078B /* Debug */,
+				718310281571EBAE00D7078B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		718310291571EBAE00D7078B /* Build configuration list for PBXNativeTarget "MacBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7183102A1571EBAE00D7078B /* Debug */,
+				7183102B1571EBAE00D7078B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 718310021571EBAD00D7078B /* Project object */;
+}
